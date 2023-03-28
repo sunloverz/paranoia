@@ -314,8 +314,6 @@ ActiveSupport.on_load(:active_record) do
   end
 end
 
-require 'paranoia/rspec' if defined? RSpec
-
 module ActiveRecord
   module Validations
     module UniquenessParanoiaValidator
